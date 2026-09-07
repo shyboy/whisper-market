@@ -5,7 +5,7 @@ description: >
   “重新开一局窃语黑市”“查看检查点”“查看记录”，或在已开启的一局中行动、与 NPC 对话（老滑头／李／队长／铁手）、
   查看情报面板、恢复存档、询问本章玩法时使用。不要用于一般编码任务或其他游戏。需要 Python 3.11 或以上。
 agent_created: true
-version: 0.1.0
+version: 0.1.1
 display_name: "窃语黑市"
 description_zh: "中文单人叙事游戏：在碎瓦城用情报、承诺与交易改变一本失窃账本的命运。"
 description_en: "Chinese single-player narrative game: trade secrets and promises over a stolen ledger."

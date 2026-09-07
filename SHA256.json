@@ -1,5 +1,10 @@
 {
   ".agents/plugins/marketplace.json": "22397f493a36f8f40b3998f1748a7b356831d2e65724a0871997d76c55889c52",
+  "README.md": "38920bdd4dcb1f8012d5324ee9db192a0a1d32d84d3e64809c2e5c90c074acc3",
+  "Windows安装.cmd": "995651480a237b0edebf41522e1ab82084a85457a5bea088a24d37c88645e81e",
+  "WorkBuddy安装.cmd": "6d7dc102058b1710e2aa7b06a375bc04cb14d6859824cbfe56811df160ea9ddc",
+  "WorkBuddy版.md": "e51fb67fdd6ea0f2347e5477a3f187ee4fc0fc86a633f5d3196fbce8c1fceab2",
+  "install-workbuddy.py": "ebe090b8a8173d58bc59148caf62deddcb732ac5e57f724939a5425141f908d6",
   "install.py": "80480deb7026bc80bbc5785bf3fffd6e5e9f142ee0972d5e583ad6463651ec75",
   "plugins/whisper-market/.codex-plugin/plugin.json": "f0190fef13c5714cfe9db52de1eccb3fb68353afa1cd39a263890eee4d4fea00",
   "plugins/whisper-market/assets/alley.png": "635c821e4c75560d9b8ee53bc67fc0ec1064b9b31c5e02c0e7e028173e34b498",
@@ -9,7 +14,13 @@
   "plugins/whisper-market/scripts/panel.py": "e73264096d1bfa649e0dfc01ccaf706a2f3ca3f558563cc95a2a19571193f99e",
   "plugins/whisper-market/scripts/story.py": "a072eb7618275822e85e60a6f1b653958d98a418be9c967b4f313f00bfc02fee",
   "plugins/whisper-market/skills/play/SKILL.md": "c8c48c8d52a2d6b2000ff57b4ff97e8ec7fc651c66a52d5b756270c2cc0d20fd",
-  "Windows安装.cmd": "995651480a237b0edebf41522e1ab82084a85457a5bea088a24d37c88645e81e",
+  "skills/whisper-market/SKILL.md": "242736b820fcd73f8ea367f960848186da54c5547b599e8f6343f7d57a1e51b3",
+  "skills/whisper-market/assets/alley.png": "635c821e4c75560d9b8ee53bc67fc0ec1064b9b31c5e02c0e7e028173e34b498",
+  "skills/whisper-market/assets/guard.png": "8817e44dfa86383a773cc6084f30490815693fe104d9f19d32c8e11901abbe31",
+  "skills/whisper-market/assets/inn.png": "5b95606dd81d284769d467d9f1fbb5fec16b8e3e65853b67ef88573c21b8cd37",
+  "skills/whisper-market/scripts/engine.py": "d7d0affefe76d2efc3d00093782ad96fcf2298e920a84d0144956fea3f117183",
+  "skills/whisper-market/scripts/panel.py": "7831606825b3a048489018fce58e2dd924d4185a641e3f1ff79993b256f4cd63",
+  "skills/whisper-market/scripts/story.py": "a072eb7618275822e85e60a6f1b653958d98a418be9c967b4f313f00bfc02fee",
   "安装说明.md": "d542879ddd3ae6799f300a2a591ba46c9ccc6ec2a11dea083b761b0be5592a44",
   "玩家指南.md": "9d82b46fe7ca698e39f8dc5cc2e14053f93547b20ae5775e87a4afacc88b6cd7"
 }

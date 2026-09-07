@@ -4,49 +4,50 @@
 
 ![窃语黑市场景插画](plugins/whisper-market/assets/inn.png)
 
-## 开始游玩
+## 选择你的版本
 
-需要已登录且有可用模型额度的 Codex，以及 Python 3.11 或以上。游戏使用玩家自己选择的 Codex 模型，不需要作者的 API Key。游玩会使用你的 Codex 额度。
+**按自己使用的软件下载一个版本即可，不必两个都装。** 两个版本使用相同的剧情与规则，同一台电脑上共用默认存档目录。
 
-**有 Codex CLI：**
+| 你使用的软件 | 下载 v0.1.1 | 安装说明 |
+|---|---|---|
+| Codex | [下载 Codex 版 ZIP](https://github.com/shyboy/whisper-market/releases/download/v0.1.1/whisper-market-codex-v0.1.1.zip) | [Codex 安装说明](安装说明.md) |
+| WorkBuddy | [下载 WorkBuddy 版 ZIP](https://github.com/shyboy/whisper-market/releases/download/v0.1.1/whisper-market-workbuddy-v0.1.1.zip) | [WorkBuddy 安装说明](WorkBuddy版.md) |
+
+两个版本都需要 **Python 3.11 或以上**，不需要 Python 第三方库。请完整解压下载包，再打开解压后的文件夹。游戏使用你在对应应用中选择的模型和自己的额度，不包含模型或作者的 API Key。
+
+安装完成后，在对应应用中**新开一个对话**，说：**“开始玩窃语黑市。”** 基本操作见[玩家指南](玩家指南.md)，指南不提供剧情攻略。
+
+## Codex 安装
+
+有 Codex CLI 时，也可以直接从 GitHub 安装：
 
 ```text
 codex plugin marketplace add shyboy/whisper-market
 codex plugin add whisper-market@whisper-market-share
 ```
 
-安装后打开一个新的 Codex 对话，说：**“开始玩窃语黑市。”**
+通过 ZIP 安装时，Windows 可双击 `Windows安装.cmd`；自动安装需要 Python 和 Codex CLI。只有桌面应用时，按[安装说明](安装说明.md)让 Codex 协助安装。
 
-**通过文件安装：**
+## WorkBuddy 安装
 
-从 [Releases](https://github.com/shyboy/whisper-market/releases) 下载分享 ZIP 并解压，按[安装说明](安装说明.md)操作。Windows 可双击 `Windows安装.cmd`；自动安装需要可用的 Python 和 Codex CLI。只有桌面应用时，安装说明也提供了让 Codex 协助安装的方法。
+Windows 可双击解压目录中的 `WorkBuddy安装.cmd`，或在 WorkBuddy 中打开解压目录，说：
 
-基本操作见[玩家指南](玩家指南.md)。指南不提供剧情攻略。
+> 请读取 WorkBuddy版.md，为我安装窃语黑市技能。
 
-## 在 WorkBuddy 中游玩
+终端安装使用 `python install-workbuddy.py`。只检查、不安装使用 `python install-workbuddy.py --dry-run`。详细步骤见[WorkBuddy 安装说明](WorkBuddy版.md)。
 
-同一个游戏也做成了 WorkBuddy 技能，在 WorkBuddy 对话里玩，规则、剧情和存档与 Codex 版一致。需要 WorkBuddy 与 Python 3.11 或以上。
+## 当前版本与验证范围
 
-```text
-python install-workbuddy.py
-```
+v0.1.1 是安装与分发更新：提供两个独立下载包，修复 WorkBuddy 检查模式改动已有安装、Python 路径含空格等问题。第一章游戏规则和存档格式沿用 v0.1.0。
 
-Windows 也可以双击 `WorkBuddy安装.cmd`；或把 `skills/whisper-market` 整个文件夹复制到 `~/.workbuddy/skills/whisper-market`。安装后**新开一个对话**，说：**“开始玩窃语黑市。”**
+提供自然语言交互、自动存档、独立新开局与检查点恢复；交易与资源由本地程序结算，对话由所在应用的模型生成。面板用于查看已有记录，行动在对话中输入。
 
-详情见[WorkBuddy版说明](WorkBuddy版.md)。两端共用同一存档目录，同一台电脑上进度互通。
+这是早期版本。发布前检查包括游戏规则、安装回归和下载包校验；WorkBuddy 应用内技能触发、连续对话和预览，以及 macOS/Linux 安装体验仍待实测。后续章节尚未开放。
 
-## 本版本
+## 存档与分享
 
-- 第一章内容、场景插画与本地只读情报面板。
-- 自然语言交互、自动保存、独立新开局与检查点恢复。
-- 交易及资源变化由本地程序结算，角色对话由 Codex 或 WorkBuddy 的模型生成。
+Windows 默认存档位于 `%LOCALAPPDATA%/WhisperMarket`；macOS/Linux 位于 `~/.local/share/WhisperMarket`。存档与插件目录分开，更新或分享游戏包时不要附带存档。
 
-这是早期版本。规则与发行相关的 21 项测试已通过，Windows 上已验证本地安装与隔离安装。真实玩家体验、不同模型的对话效果以及 macOS/Linux 安装仍待验证；后续章节尚未开放。
+[Releases](https://github.com/shyboy/whisper-market/releases) 同时提供两个 ZIP 和各自的 `.sha256` 文件；包内 `SHA256.json` 用于核对文件完整性，不是数字签名。
 
-## 存档与文件
-
-Windows 默认存档位于 `%LOCALAPPDATA%/WhisperMarket`；macOS/Linux 位于 `~/.local/share/WhisperMarket`，与插件版本目录分开。更新或分享游戏包不需要附带存档。
-
-本仓库只包含可分发的插件、素材、安装器和玩家说明。`SHA256.json` 核对发行文件完整性，不是数字签名。保留原始换行格式是校验的一部分。
-
-`plugins/whisper-market` 和 `skills/whisper-market` 中的规则和主持人文件含剧情细节；想保留探索体验，直接开始游戏即可。两份内容同源：Codex 插件是唯一真源，WorkBuddy 技能由它生成。
+仓库只包含可分发的插件、素材、安装器和玩家说明。`plugins/whisper-market` 是 Codex 插件，`skills/whisper-market` 是从同一源码生成的 WorkBuddy 技能；其中主持人规则包含剧情细节，想保留探索体验可以直接开始游戏。

@@ -13,13 +13,15 @@
 
 ## 安装
 
+先[下载 WorkBuddy 版 ZIP](https://github.com/shyboy/whisper-market/releases/download/v0.1.1/whisper-market-workbuddy-v0.1.1.zip)，完整解压后打开里面的文件夹。不要下载 Codex 版 ZIP，也不要只取出一个安装脚本。
+
 ### 方式一：让 WorkBuddy 帮你装（推荐）
 
-在 WorkBuddy 里打开本仓库目录，说：
+在 WorkBuddy 里打开解压后的目录（或本仓库目录），说：
 
 > 请运行 `install-workbuddy.py` 为我安装窃语黑市技能，安装后告诉我怎么开始。
 
-安装器会把技能复制到用户级技能目录，并在覆盖前为内容不同的旧版保留带时间戳的备份。
+安装器会先验证完整副本，再复制到用户级技能目录。内容相同的已有安装保持不动；更新不同内容时保留旧版备份，替换失败会尝试恢复。存档目录不参与安装。
 
 ### 方式二：命令行
 
@@ -28,6 +30,8 @@ python install-workbuddy.py
 ```
 
 Windows 也可以双击 `WorkBuddy安装.cmd`。
+
+只检查而不安装：`python install-workbuddy.py --dry-run`。该模式不创建或改动安装目录。Python 路径含空格时，可用 `--python "C:\Program Files\Python311\python.exe"` 指定完整路径。
 
 ### 方式三：手动复制
 
@@ -74,4 +78,4 @@ Codex 插件 `plugins/whisper-market/`（主项目里的 `whisper-market/`）是
 python tools/build_workbuddy.py
 ```
 
-它会复制规则程序与素材，只改写技能 frontmatter、路径规则和平台措辞，然后输出到公开仓库工作目录；若上游措辞变化导致改写点找不到，构建会直接报错而不是静默产出旧版。安装器与本文档一并由该脚本同步。
+它会复制规则程序与素材，只改写技能 frontmatter、路径规则和平台措辞，然后输出到公开仓库工作目录，同时生成独立 WorkBuddy ZIP 及校验文件；若上游措辞变化导致改写点找不到，构建会直接报错而不是静默产出旧版。安装器、本文档及首页一并由该脚本同步。
