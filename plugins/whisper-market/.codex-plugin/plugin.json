@@ -1,0 +1,26 @@
+{
+  "name": "whisper-market",
+  "version": "0.1.0+codex.20260907114054",
+  "description": "\u7a83\u8bed\u9ed1\u5e02\uff1a\u5728\u788e\u74e6\u57ce\u7528\u60c5\u62a5\u3001\u627f\u8bfa\u4e0e\u4ea4\u6613\u6539\u53d8\u4e00\u4efd\u5931\u7a83\u8d26\u672c\u7684\u547d\u8fd0\u3002",
+  "author": {
+    "name": "\u6768\u8001\u5e08"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "\u7a83\u8bed\u9ed1\u5e02",
+    "shortDescription": "\u6bcf\u53e5\u8bdd\u90fd\u6709\u4ef7\uff0c\u6bcf\u7b14\u8d26\u90fd\u6709\u4e3b\u4eba\u3002",
+    "longDescription": "\u7b2c\u4e00\u7ae0\u300a\u5931\u7a83\u7684\u8d26\u672c\u300b\u3002\u81ea\u7531\u4ea4\u8c08\u3001\u5206\u652f\u7ed3\u5c40\u3001\u81ea\u52a8\u5b58\u6863\u548c\u60c5\u62a5\u9762\u677f\u3002\u4f7f\u7528\u73a9\u5bb6\u81ea\u5df1\u7684 Codex \u6a21\u578b\uff1b\u9700\u8981 Python 3.11 \u6216\u4ee5\u4e0a\u3002",
+    "developerName": "\u6768\u8001\u5e08",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "brandColor": "#BCA16D",
+    "defaultPrompt": [
+      "\u5f00\u59cb\u73a9\u7a83\u8bed\u9ed1\u5e02",
+      "\u7ee7\u7eed\u6211\u7684\u7a83\u8bed\u9ed1\u5e02\u5b58\u6863",
+      "\u67e5\u770b\u7a83\u8bed\u9ed1\u5e02\u7684\u73a9\u6cd5"
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+# The installer verifies exact release bytes, including line endings.
+* -text

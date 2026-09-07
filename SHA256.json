@@ -1,0 +1,15 @@
+{
+  ".agents/plugins/marketplace.json": "22397f493a36f8f40b3998f1748a7b356831d2e65724a0871997d76c55889c52",
+  "install.py": "80480deb7026bc80bbc5785bf3fffd6e5e9f142ee0972d5e583ad6463651ec75",
+  "plugins/whisper-market/.codex-plugin/plugin.json": "f0190fef13c5714cfe9db52de1eccb3fb68353afa1cd39a263890eee4d4fea00",
+  "plugins/whisper-market/assets/alley.png": "635c821e4c75560d9b8ee53bc67fc0ec1064b9b31c5e02c0e7e028173e34b498",
+  "plugins/whisper-market/assets/guard.png": "8817e44dfa86383a773cc6084f30490815693fe104d9f19d32c8e11901abbe31",
+  "plugins/whisper-market/assets/inn.png": "5b95606dd81d284769d467d9f1fbb5fec16b8e3e65853b67ef88573c21b8cd37",
+  "plugins/whisper-market/scripts/engine.py": "c7fbede332b357188d60c49ae7f59ff49a1f11960f6ec4ddc4a8cf7eac300fc1",
+  "plugins/whisper-market/scripts/panel.py": "e73264096d1bfa649e0dfc01ccaf706a2f3ca3f558563cc95a2a19571193f99e",
+  "plugins/whisper-market/scripts/story.py": "a072eb7618275822e85e60a6f1b653958d98a418be9c967b4f313f00bfc02fee",
+  "plugins/whisper-market/skills/play/SKILL.md": "c8c48c8d52a2d6b2000ff57b4ff97e8ec7fc651c66a52d5b756270c2cc0d20fd",
+  "Windows安装.cmd": "995651480a237b0edebf41522e1ab82084a85457a5bea088a24d37c88645e81e",
+  "安装说明.md": "d542879ddd3ae6799f300a2a591ba46c9ccc6ec2a11dea083b761b0be5592a44",
+  "玩家指南.md": "9d82b46fe7ca698e39f8dc5cc2e14053f93547b20ae5775e87a4afacc88b6cd7"
+}
